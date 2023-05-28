@@ -33,20 +33,10 @@ variable "ingress_port_list" {
   type        = list(number)
 }
 
-# variable "cadena" {
-#   type    = string
-#   default = "ami-123,AMI-AAV,ami-12f"
-# }
+variable "access_key" {
+  
+}
 
-# variable "palabras" {
-#   type    = list(string)
-#   default = ["hola", "cómo", "están", "ustedes"]
-# }
-
-# variable "entornos" {
-#   type = map(string)
-#   default = {
-#     "prod" = "10.10.0.0/16"
-#     "dev"  = "172.16.0.0/16"
-#   }
-# }
+variable "secret_key" {
+  
+}
