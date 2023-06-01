@@ -1,8 +1,8 @@
 .infracost
-<<<<<<< HEAD
-*.pen
 .terraform
-terraform.tfstate
+terraform.tfstate.d
 *.svg
-=======
->>>>>>> f4e9f8e6e74f54b68dd74918812438260782254a
+terraform.tfvars
+terraform.tfstate.lock.info
+*.hcl
+*.pen
