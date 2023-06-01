@@ -33,6 +33,7 @@ variable "ingress_port_list" {
   type        = list(number)
 }
 
+<<<<<<< HEAD
 # variable "cadena" {
 #   type    = string
 #   default = "ami-123,AMI-AAV,ami-12f"
@@ -50,3 +51,12 @@ variable "ingress_port_list" {
 #     "dev"  = "172.16.0.0/16"
 #   }
 # }
+=======
+variable "access_key" {
+  
+}
+
+variable "secret_key" {
+  
+}
+>>>>>>> f4e9f8e6e74f54b68dd74918812438260782254a
